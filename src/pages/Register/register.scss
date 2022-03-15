@@ -1,0 +1,53 @@
+.main-page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+
+
+}
+
+
+.title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+.left {
+    flex: 1;
+    width: 65%;
+
+    .left-img {
+        height: 100vh;
+
+    }
+}
+
+.right {
+    
+    width: 35%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+Input{
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}

@@ -1,11 +1,11 @@
 
 import './App.css';
-
+import { Routes } from '../config';
 function App() {
   return (
-    <div className="App">
-      <h1>Navbar</h1>
-    </div>
+
+      <Routes/>
+
   );
 }
 
